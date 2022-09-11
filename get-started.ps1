@@ -6,12 +6,12 @@
   Start-Sleep -s 5
   
   # Starts ARS  
-  Start-Process -FilePath Chrome -ArgumentList https://arserver.nike.com/ARServerAdmin/default.aspx
+  Start-Process -FilePath Chrome -ArgumentList https://arserver.domain.com/ARServerAdmin/default.aspx
   Write-Host "ARS will be ready soon" -ForegroundColor Green
   Start-Sleep -s 5
   
   # Starts AD Tools
-  Start-Process -FilePath Chrome -ArgumentList http://adtools.nike.com/
+  Start-Process -FilePath Chrome -ArgumentList http://adtools.domain.com/
   Write-Host "AD Tools will be ready soon" -ForegroundColor Yellow
   Start-Sleep -s 5
   
